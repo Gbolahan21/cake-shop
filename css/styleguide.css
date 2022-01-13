@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@400;700&display=swap');
+
+/*
+---
+    Font-Family: Roboto, Sans-Serif
+---
+
+```Usage example
+<h1 class="Header-One">Header One</h1>
+<h2 class="Header-Two">Header Two</h2>
+<h3 class="Header-Three">Header Three</h3>
+<h4 class="Header-Four">Header Four</h4>
+<h4 class="Header-Five">Header FIve</h4>
+<p class="Text-One">Text One</p>
+<p class="Text-Two">Text Two</p>
+```
+*/
+
+.Header{font-family: "Proza Libre", serif;}
+.Header-One {font-size:48px;font-weight: bold;}
+.Header-Two {font-size:32px;font-weight: bold;}
+.Header-Three {font-size:28px;font-weight: bold;}
+.Header-Four {font-size:24px;font-weight: bold;}
+
+.Sub-Header{font-size: 24px; font-weight:normal;}
+.Body-One {font-size:22px;font-weight: normal;}
+.Body-Two {font-size:20px;font-weight: normal;}
+
+
+.Btn-Text {font-size: 22px;font-weight: normal;}
+
+@media only screen and (max-width: 768px) {
+    .Header-One {font-size:36px;}
+    .Header-Two {font-size:26px;}
+    .Header-Three {font-size:22px;}
+    .Header-Four {font-size:20px;}
+
+    .Sub-Header {font-size:18px;font-weight: normal;}
+    .Body-One {font-size:16px;font-weight: normal;}
+    .Body-Two {font-size:14px;font-weight: normal;}
+
+    .Btn-Text {font-size: 18px;font-weight: normal;}
+}
+
+
+/*
+---
+    Backgrounds
+---
+
+```Usage example
+    <div class="gradient-one"><h1 class="Header-Two">Happy Day Mate!</h1></div>
+```
+*/
+
+.Background-One {
+    color: #2C272B;
+    background: url("../img/small-bg.svg");
+    background-size: cover;
+}
+
+.Background-Two {
+    color: #2C272B;
+    background: url("../img/large-bg.svg");
+    background-size: cover;
+}
+
+.Background-Three {
+    color: #fff;
+    background: rgb(186,60,121);
+    background: -moz-linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    background: -webkit-linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    background: linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba3c79",endColorstr="#ea64a5",GradientType=1);
+}
+
+/*
+---
+    Colors
+---
+
+*/
+
+.Primary-One {color: #fff;background: #D7397C;}
+.Primary-Two {color: #262C32;background: #FFDEEB;}
+.Primary-Three {color: #262C32;background: #CDB4DB;}
+.Primary-Four {color: #262C32;background: #FFF495;}
+.Primary-Five {color: #262C32;background: #A2D2FF;}
+.Primary-Six {color: #fff;background: #2C272B;}
+
+
+/*
+---
+    Buttons
+---
+
+Types of Button:
+- Primary-Button: Blueish Gradient Button
+- Secondary-Button: Grey Button
+- Tertiary-Button: Greyish Gradient Button
+
+
+*/
+
+.Button{
+    padding: 20px 40px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.Primary-Button{
+    color: #fff;
+    background: rgb(186,60,121);
+    background: -moz-linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    background: -webkit-linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    background: linear-gradient(273deg, rgba(186,60,121,1) 0%, rgba(234,100,165,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ba3c79",endColorstr="#ea64a5",GradientType=1);
+}
+
+.Secondary-Button{
+    color: #D7397C;
+    background: #FFDEEB;
+}
+
+
+
+/*
+---
+    Input Fields
+---
+
+Types of Inputs:
+- Input Name: Input field for name, username
+- Input Password: Input field for password
+- Input Email: Input field for email address
+- Input Phone: Input field for phone number
+
+```Usage example
+    <div class="input-field">
+    <label for="#input"></label>
+    <input type="text" id="input">
+    </div>
+```
+*/
+
+.input-field {
+    margin-top: 20px;
+}
+
+.input-field input:active,
+.input-field input:focus,
+.input-field textarea:focus {
+    border-color: #D7397C;
+    box-shadow: 0px 4px 40px rgba(194,126,153,.4);
+}
+
+.input-field input {
+    width: 50%;
+    padding: 16px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 3px solid #CDB4DB;
+    font-size: 22px;
+    font-weight: 400;
+    color: #576372;
+    border-radius: 6px;
+    transition: all .3s ease-out;
+}
+
+.input-field textarea {
+    width: 70%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    height: 200px;
+    border: 3px solid #CDB4DB;
+    color: #576372;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .3s ease-out;
+}
+
+.input-field label {
+    display: block;
+    color: #4D555A;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .input-field input,
+    .input-field textarea {
+        width: 100%;
+    }
+}
+
+/*
+---
+    Box Shadow
+---
+
+Box Shadow:
+- Dropshadow-One: Level one shadow
+
+*/
+
+.Dropshadow-One {
+    box-shadow: 0px 4px 40px rgba(194,126,153,.4);
+}
+.Dropshadow-Two {
+    box-shadow: 0px 4px 40px rgba(194,126,153,.1);
+}

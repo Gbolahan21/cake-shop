@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Cakes</title>
+    <link rel="shortcut icon" href="img/fav.png">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <img src="img/Logo.png" alt="" style="margin-left: 5px;" height="50px" width="250px">
+        <ul class="nav-links">
+            <div class="separate">
+                <a href="homepage.html" class="newStyle">
+                    <li style="color: #D7397C;">Home</li>
+                </a>
+                <a href="about_us.html" class="newStyle">
+                    <li>About Us</li>
+                </a>
+                <a href="contact_us.html" class="newStyle">
+                    <li>Contact Us</li>
+                </a>
+                <div class="dropdown">
+                    <button type="button" id="drop" class="dropdown-toggle show" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Cakes
+                    </button>
+                    <div id="drop_content" class="dropdown-menu fs-sm show" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-1px, 40px);" data-popper-placement="bottom-start">
+                      <a class="dropdown-item" href="ready_cake.html">Ready Cake</a>
+                      <a class="dropdown-item" href="custom_cake.html">Custom Cake</a>
+                      <a class="dropdown-item" href="customcake_cakeoption.html">Cake Goal</a>
+                    </div>
+                </div>
+                <a href="my_cart.html" class="newStyle">
+                    <li>My Cart</li>
+                </a>
+            </div>
+            <a href="login.html" class="newStyle" style="margin-right: -30px;">
+                <li>Login</li>
+            </a>
+            <a href="register.html" class="newStyle" style="margin-right: -30px;">
+                <li class="design">Register</li>
+            </a>
+        </ul>
+    </nav>
+
+    <section id="testimonials">
+        <h1>About Amazing Cakes</h1>
+    </section>
+
+    <div class="step2">
+        <div class="row" id="row1">
+            <div class="feature-box col-lg-6 col-md-6">
+               <img src="img/image 21.png" alt="" height="400px" width="680px">
+            </div>
+            
+            <div class="feature-box col-lg-6 col-md-6" id="chocolate">
+                <h5>A Little About Amazing Cakes</h5>
+                <p>Pine apple is a very good fruit, it adds vitamin C to your body. <br>
+                    This sharpens your mind and makes you more leser focused. <br>
+                    Vitamin C is vital for human growth, 60% of stunted growth <br>
+                    cases is caused by lack of vitamin C good fruit, it adds <br>
+                    vitamin C to your body. This sharpens your mind and 
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="feature-box col-lg-6 col-md-6" id="chocolates">
+                <h5>How We Make Cakes</h5>
+                <p>Pine apple is a very good fruit, it adds vitamin C to your body. <br>
+                    This sharpens your mind and makes you more leser focused. <br>
+                    Vitamin C is vital for human growth, 60% of stunted growth <br>
+                    cases is caused by lack of vitamin C good fruit, it adds <br>
+                    vitamin C to your body. This sharpens your mind and 
+                </p>
+            </div>
+
+            <div class="feature-box col-lg-6 col-md-6">
+               <img class="shift" src="img/photo-1557979619-445218f326b9 1.png" alt="" height="400px" width="667px">
+            </div>   
+        </div>
+    </div>
+
+    <div class="step3">
+        <h4 class="in">Other Amazing Cakes</h4>
+        <p class="taste">Welcome to the home of cakes, join the cake club and feel the sweet taste of vanilla.</p>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" id="rows">
+                        <div class="pricing-column col-lg-4 col-md-6">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/cake.png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Personalized Blue Vanilla Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="pricing-column col-lg-4 col-md-6">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/Rectangle 6.png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Girly Buttercream Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="pricing-column col-lg-4" id="card_move">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/Rectangle 6 (1).png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Swirl buttercream Birthday Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row" id="rows">
+                        <div class="pricing-column col-lg-4 col-md-6">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/cake.png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Personalized Blue Vanilla Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="pricing-column col-lg-4 col-md-6">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/Rectangle 6.png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Girly Buttercream Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="pricing-column col-lg-4" id="card_move">
+                            <div class="card" id="cards">
+                                <div class="card-body">
+                                    <img class="img_cake" src="img/Rectangle 6 (1).png" alt="" height="200px" width="298px">
+                                    <h5 class="blue">Swirl buttercream Birthday Cake</h5>
+                                    <p class="amount">#4,000</p>
+                                    <a href="customcake_cakeoption.html"><button class="view" type="submit">View Cake Options</button></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="left" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button id="right" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <center><a href="ready_cake.html"><button class="view_red" type="submit">View Ready Cakes</button></a></center> 
+    </div>
+
+     <!-- footer -->
+     <div class="footer">
+        <div class="containers">
+          <div class="rows">
+            <div class="footer-col">
+                <img src="img/Logo.png" alt="">
+                <p>Amazing cake is the home of cakes and amazing cakes.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a> &nbsp;&nbsp;
+                    <a href="#"><i class="fab fa-twitter"></i></a> &nbsp;&nbsp;
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col pads">
+              <div class="feature">
+                <h4>Quick Links</h4>
+                <a class="foot" href="homepage.html">Home</a>
+                <a class="foot" href="about_us.html">About Us</a>
+                <a class="foot" href="contact_us.html">Contact Us</a>
+              </div>
+            </div>
+            <div class="footer-col pads">
+                <div class="company">
+                    <h4>Cake Links</h4>
+                    <a class="foot" href="ready_cake.html">Ready Cake</a>
+                    <a class="foot" href="custom_cake.html">Custom Cake</a>
+                    <a class="foot" href="customcake_cakeoption.html">Cake Goal</a>
+                </div>
+            </div>
+          <div class="footer-col pads" id="reach">
+            <h4>Reach Out</h4>
+                <a class="foot" href="#">+234-0921894759</a>
+                <a class="foot" href="#">+234-0811894759</a>
+                <a class="foot" href="#">hello @amazingcake.com</a>
+                <a class="foot" href="#">No 9, Seun Street, Ibadan State</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

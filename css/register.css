@@ -1,0 +1,128 @@
+body {
+    color: #2C272B;
+    background: url("../img/large-bg.svg");
+    background-size: cover;
+    font-family: "Proza Libre", serif;
+}
+
+form {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-align: center;
+    width: 37%;
+    margin-left: 450px;
+    height: 650px;
+}
+
+.logo {
+    padding-top: 70px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+.join {
+    font-size: 20px;
+}
+
+.but {
+    font-size: 12px;
+    margin-top: 20px;
+    background-color: #FFDEEB;
+    width: 80%;
+    height: 50px;
+    border: 1px solid #FFDEEB;
+    color: #D7397C;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.amazing {
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: #D7397C;
+    width: 80%;
+    height: 50px;
+    border: 1px solid #FFDEEB;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+}
+
+.line {
+    width: 35%;
+    float: left;
+    margin-left: 50px;
+}
+
+.lines {
+    width: 35%;
+    float: right;
+    margin-right: 50px;
+}
+
+.details .input-field label {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.input-field {
+    margin-top: 20px;
+}
+
+.input-field input:active,
+.input-field input:focus {
+    border-color: #D7397C;
+    box-shadow: 0px 4px 40px rgba(194,126,153,.4);
+}
+
+.input-field input {
+    width: 30%;
+    padding: 16px 20px;
+    border: 2px solid #CDB4DB;
+    font-size: 18px;
+    color: #576372;
+    border-radius: 4px;
+    transition: all .3s ease-out;
+    height: 40px;
+    margin-left: -250px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: black;
+}
+
+#right {
+    margin-left: 250px;
+    margin-top: -80px;
+}
+
+#right input {
+    width: 60%;
+    margin-right: -240px;
+}
+
+#right label {
+    margin-left: 45px;
+}
+
+p {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: #D7397C;
+}
+
+.a:hover {
+    text-decoration: none;
+    color: #D7397C;
+}
